@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos Realizados</title>
+    <link rel="stylesheet" href="proyectos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Proyectos Realizados</h1>
+        </header>
+        <section class="projects">
+            <article>
+                <h2>Sistema de Gestión de Inventarios</h2>
+                <p><strong>Descripción:</strong> Desarrollé un sistema de gestión de inventarios para una pequeña empresa utilizando Node.js y React.</p>
+                <p><strong>Resultados:</strong> Mejoró la eficiencia del inventario en un 40% y redujo errores en la gestión de stock.</p>
+            </article>
+            <article>
+                <h2>Aplicación de Tareas</h2>
+                <p><strong>Descripción:</strong> Creé una aplicación web para la gestión de tareas personales utilizando JavaScript y SQL.</p>
+                <p><strong>Resultados:</strong> Incrementó la productividad personal de los usuarios en un 30% al facilitar la organización de tareas.</p>
+            </article>
+        </section>
+        <section class="contact-form">
+            <h2>Formulario de Contacto</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Número de Contacto:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipo-telefono">Tipo de Número:</label>
+                    <select id="tipo-telefono" name="tipo-telefono">
+                        <option value="personal">Personal</option>
+                        <option value="fijo">Fijo</option>
+                        <option value="oficina">Oficina</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
